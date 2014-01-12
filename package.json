@@ -1,0 +1,24 @@
+{
+  "name": "dbfParser",
+  "version": "0.0.0",
+  "description": "dBase table file parser which accepts streams",
+  "main": "dbfParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bonuspunkt/dbfParser.git"
+  },
+  "keywords": [
+    "dbf",
+    "parser",
+    "stream"
+  ],
+  "author": "Bonuspunkt",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/Bonuspunkt/dbfParser/issues"
+  },
+  "homepage": "https://github.com/Bonuspunkt/dbfParser"
+}

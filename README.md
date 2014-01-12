@@ -21,4 +21,6 @@ parser.on('record', function(record) {
 ```
 
 ## installation
-npm install <repoUrl>
+```
+npm install git://github.com/Bonuspunkt/dbfParser.git
+```

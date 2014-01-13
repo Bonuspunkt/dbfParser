@@ -6,12 +6,12 @@ will not work with [dBASE Version 7 Table File](http://www.dbase.com/Knowledgeba
 
 ## usage
 ```javascript
-var parser = require('fs').createReadStream('file.dbf').pipe(new require('dbfParser')());
+var parser = require('fs').createReadStream('file.dbf').pipe(new require('dbfparser')());
 parser.on('header', function(header) {
   // here you can do stuff like renaming property names
   header.fieldDescriptors[0].name = 'newName';
   // do you custom conversions
-  header.fieldDescriptors[0].parse = function(chunk) { 
+  header.fieldDescriptors[0].parse = function(chunk) {
     return chuck.toString('utf8').replace('\s+$', '');
   };
 });
@@ -22,5 +22,5 @@ parser.on('record', function(record) {
 
 ## installation
 ```
-npm install git://github.com/Bonuspunkt/dbfParser.git
+npm install dbfparser
 ```

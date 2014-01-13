@@ -1,5 +1,5 @@
 {
-  "name": "dbfParser",
+  "name": "dbfparser",
   "version": "0.0.0",
   "description": "dBase table file parser which accepts streams",
   "main": "dbfParser.js",

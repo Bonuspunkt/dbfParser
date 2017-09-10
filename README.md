@@ -1,4 +1,6 @@
 # DBF Parser
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Bonuspunkt/dbfParser.svg)](https://greenkeeper.io/)
 DBF = dBase File
 find more info in the `DBFstruct.htm` or [where it was grabbed](http://ulisse.elettra.trieste.it/services/doc/dbase/DBFstruct.htm) and [this](http://msdn.microsoft.com/en-us/library/aa975386) seems also to match.
 
